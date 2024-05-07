@@ -1,7 +1,7 @@
 aliyun:
   oss:
-    endpoint: https://oss-cn-shenzhen.aliyuncs.com
-    bucketName: bucket-911
+    endpoint: xxxxxxxxxxxxxxxxx
+    bucketName: xxxxxxxx
 spring:
   application:
     name: tlias-web-manage
