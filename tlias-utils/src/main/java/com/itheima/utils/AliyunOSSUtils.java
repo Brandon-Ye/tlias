@@ -29,8 +29,8 @@ public class AliyunOSSUtils {
         // EnvironmentVariableCredentialsProvider credentialsProvider = CredentialsProviderFactory.newEnvironmentVariableCredentialsProvider();
 
         // STS临时访问密钥AccessKey ID和AccessKey Secret。【改成自己的ID和secret】
-        String accessKeyId = "LTAI5tEn2CQE4Bi5PqWT4T8y";
-        String accessKeySecret = "V3VE7Lmj3T3aEKNuBUoZMwPH9fUPmV";
+        String accessKeyId = "XXXXXXXXXXXX";
+        String accessKeySecret = "XXXXXXXXXXXXX";
         // 使用代码嵌入的STS临时访问密钥和安全令牌配置访问凭证。
         CredentialsProvider credentialsProvider = new DefaultCredentialProvider(accessKeyId, accessKeySecret);
 
